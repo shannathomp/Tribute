@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://th.bing.com/th/id/OIP.GOTTmOCbtEFsZpXDd1ey0wHaE-?w=283&h=190&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(16, 66, 19);
+    font-size: 80px;
+}
+
+h2 {
+    color: rgb(16, 66, 19);
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    border: solid rgb(4, 83, 4) 10px;
+    width: 1400px;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0;
+    gap: 5px;
+
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    padding: 20px;
+    background-color: rgb(207, 200, 200);
+
+}
+
+#text {
+    color: rgb(16, 66, 19);
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+#text2 {
+    color: rgb(16, 66, 19);
+    font-size: 20px;
+
+}
+
+.child1 {
+    background-color: #d63031;
+    flex-direction: row;
+}
+
+.child2 {
+    background-color: blueviolet;
+}
+
+.child3 {
+    background-color: rgb(80, 43, 226);
+}
+
+
+.acc-task ul {
+    flex-wrap: wrap;
+}
+
+main>h2 {
+    color: blue
+}
+
+.all {
+    background-color: rgb(207, 200, 200);
+}
+
+.head-under {
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img3 {
+    padding-right: 30px;
+}
+.para{
+   padding:35px;
+}
